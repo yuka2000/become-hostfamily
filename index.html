@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Host familiy</title>
+</head>
+<style>
+    :root {
+        --primaryColor: #2a3b8c; /* Dark Blue - Technology */
+        --secondaryColor: #ff6f00; /* Bright Orange - Energy */
+        --onPrimaryColor: #e1eaf6; /* Light Blue - Clarity */
+        --onSecondaryColor: #ffbc42; /* Soft Orange - Fun */
+        --black: #000;
+        --white: #fff;
+        --gray: #f0f0f0;
+        --red: #e74c3c; /* Red - Highlight */
+      }
+      
+      /* Resetting margin, padding, and font for all elements */
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Comic Neue", sans-serif; /* We set a font style for the entire document */
+      }
+      
+      /* Applying overflow property to HTML and body */
+      html,
+      body {
+        overflow-x: hidden; /* Prevents horizontal scrolling in the document */
+        
+    }
+    header {
+        font-family: "Montserrat", sans-serif;
+        min-height: 100vh;
+        width: 100%;
+        background-image: url('/Users/valuedcustomer/Desktop/ HOMESTAY/group-young-women-laughing-table-during-dinner-party-home-they-eating-drinking-wine_236854-35994.avif');
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        margin-bottom: 20px;
+      }
+
+      @keyframes textMovement {
+        0% {
+          opacity: 0;
+          scale: 0.1;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      
+      /* Styling for the text box in the header */
+      .text-box-1 {
+        width: 90%;
+        color: var(--white);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        opacity: 0;
+        animation: textMovement 2s forwards;
+      }
+      
+      /* Styling for the header text */
+      .text-box-1 h1 {
+        font-size: 65px;
+      }
+      
+      .text-box-1 p{
+        color: #000000;
+      }
+
+      .container {
+        text-align: center;
+        padding: 20px; /* Add padding for better spacing */
+        width: 60%; /* Adjust the width as needed */
+        margin: 0 auto; /* Center the container horizontally */
+      }
+      
+      .container h1 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: darkseagreen;
+        margin-bottom: 20px;
+      }
+      
+
+      .container p{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+
+      .container-2{
+        text-align: center;
+        padding: 20px; /* Add padding for better spacing */
+        width: 60%; /* Adjust the width as needed */
+        margin: 0 auto; /* Center the container horizontally */
+        margin-top: 20px;
+      }
+      .container-2 h1 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: darkseagreen;
+        margin-bottom: 20px;
+      }
+      
+
+      .container-2 p{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 20px;
+}
+
+      .container-3 {
+        text-align: center;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Add a shadow */
+        padding: 20px; /* Add padding for better spacing */
+        width: 60%; /* Adjust the width as needed */
+        margin: 0 auto; /* Center the container horizontally */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 30px;
+      }
+
+      .container-3 h1{
+        margin-bottom: 20px;
+        color: darkseagreen;;
+      }
+
+      .container-3 h3{
+        margin-bottom: 10px;
+      }
+
+      .container-3 p{
+        margin-bottom: 10px;
+      }
+      .card{
+        width:60%;
+        margin: auto;
+
+      }
+      .box-2 {
+    
+        text-align: center;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Add a shadow */
+        padding: 20px; /* Add padding for better spacing */
+        width: 60%; /* Adjust the width as needed */
+        margin: 0 auto; /* Center the container horizontally */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .image {
+        margin-bottom: 20px; /* Add margin at the bottom for better spacing */
+        height: auto;
+        max-width: 70%; /* Ensure the image is responsive */
+    }
+    
+    .text-2 h1 {
+        color: #217dbb;
+        margin-bottom: 10px;
+        text-align: center; /* Center the text for responsiveness */
+    }
+    
+    .text-2 p {
+        color: #333;
+        text-align: center; /* Center the text for responsiveness */
+    }
+
+    .container-4{
+        text-align: center;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Add a shadow */
+        padding: 20px; /* Add padding for better spacing */
+        width: 60%; /* Adjust the width as needed */
+        margin: 0 auto; /* Center the container horizontally */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .container-4 h1{
+        color: darkseagreen;
+        margin-bottom: 40px;
+    }
+
+    .container-5{
+        text-align: center;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Add a shadow */
+        padding: 20px; /* Add padding for better spacing */
+        width: 60%; /* Adjust the width as needed */
+        margin: 0 auto; /* Center the container horizontally */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 30px;
+
+    }
+
+    .container-5 h1{
+        color: darkseagreen;
+        margin-bottom: 40px;
+    }
+
+    .button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #239549; /* Button background color */
+        color: #fff; /* Text color */
+        text-decoration: none; /* Remove underline */
+        border: none;
+        border-radius: 5px; /* Rounded corners */
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    /* Hover effect */
+    .button:hover {
+        background-color: #000000; /* Darker shade of the button color */
+    }
+    
+      @media (max-width: 700px) {
+        /* Adjustments for header text on smaller screens */
+        .text-box-1 h1 {
+          font-size: 20px;
+        }
+    
+        .box-text {
+          position: absolute;
+          bottom: 0; /* Position at the bottom */
+          left: 0; /* Position at the left */
+          transform: translate(0, 0); /* Reset the transform */
+          text-align: left; /* Align text to the left */
+          color: #fff;
+          z-index: 1;
+          width: 100%;
+          padding: 10px; /* Adjust the padding as needed */
+          box-sizing: border-box;
+          background-color: rgba(0, 0, 0, 0.5); /* Adjust the transparency (0.5 is 50%) */
+      }
+      
+    }    
+
+    @media only screen and (min-width: 600px) {
+        .box-2 {
+            padding: 20px;
+            display: flex;
+            flex-direction: row; /* Set to row layout for all screens */
+            align-items: center;
+            background-color: #ffffff;
+            max-width: 95%;
+            margin: auto;
+            box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .image {
+            margin-bottom: 20px; /* マージンを追加して間隔を調整 */
+            max-width: 200px; /* すべての画像を同じ幅にする */
+            margin-right: 40px; /* 右側の余白を設定 */
+        }
+        
+        .text-2 {
+            text-align: left; /* Align text to the left for all screens */
+        }
+        
+        .text-2 h1 {
+            font-size: 2em; /* Adjust the font size for all screens */
+            text-align: left; /* Align heading to the left for all screens */
+        }
+        
+        .text-2 p {
+            font-size: 1.2em; /* Adjust the font size for all screens */
+            text-align: left; /* Align paragraphs to the left for all screens */
+        }
+    }
+
+</style>
+<header>
+
+
+<div class="text-box-1">
+    <h1>HOST FAMILIES WANTED!!</h1>
+</header>
+
+<div class="container">
+    <h1>Help shape the fiture of Japanese students and create memorable experiences?</h1>
+    <p>osting students can be a rewarding experience for host families, providing them with opportunities for personal growth, cultural enrichment, and meaningful connections with individuals from diverse backgrounds.</p>
+</div>
+
+<div class="container-2">
+    <h1>Who can apply to become host family?</h1>
+    <p>If the requirements outlined in the details below are met, we can accept students into host families.</p>
+</div>
+
+<div class="container-3">
+    <h1>What is the weveral rewuirement??</h1>
+    <div class="card">
+        <img src="/Users/valuedcustomer/Desktop/ HOMESTAY/cowancourtbedroom_d8375ca1-3f4d-49d8-bb28-069ecfc69ef3 copy.jpg" alt="Alps" style="width:100%">
+        <div class="card-container">
+          <h3>Accommodations</h3>
+          <p>Acomfortable private bedroom with a bed, a door, window, desk, closet, chair and desk lamp</p>
+        </div>
+      </div>
+      </div>
+
+      <div class="container-3">
+      <div class="card">
+        <img src="/Users/valuedcustomer/Desktop/ HOMESTAY/istockphoto-1434916224-612x612 copy.jpg" alt="Alps" style="width:100%">
+        <div class="card-container">
+          <h3>Meals</h3>
+          <p>3 nutritious meals a day. Breakfast can be self self-service</p>
+        </div>
+      </div>
+      </div>
+
+      <div class="container-3">
+      <div class="card">
+        <img src="/Users/valuedcustomer/Desktop/ HOMESTAY/istockphoto-1047570732-612x612 copy.jpg" alt="Alps" style="width:100%">
+        <div class="card-container">
+          <h3>Language</h3>
+          <p>An English only environment at home. Please awere that only Japanese in the house.</p>
+        </div>
+      </div>
+</div>
+
+<div class="box-2">
+    <img src="/Users/valuedcustomer/Desktop/ HOMESTAY/istockphoto-1218588306-612x612 copy.jpg" alt="image" class="image">
+    <div class="text-2">
+        <h1>STEP1: Apply Host family</h1>
+      <p>Continue down to the botton and you will find the application form.</p>
+    </div>
+  </div>
+
+  <div class="box-2">
+    <img src="/Users/valuedcustomer/Desktop/ HOMESTAY/istockphoto-1424406254-612x612 copy.jpg" alt="image" class="image">
+    <div class="text-2">
+        <h1>STEP2: Recieve email</h1>
+      <p>After submitting your application, you will receive ad email from Access Canada.
+        Please reply to the email according to the information in the email.
+      </p>
+    </div>
+  </div>
+
+  <div class="box-2">
+    <img src="/Users/valuedcustomer/Desktop/ HOMESTAY/istockphoto-1319763366-612x612 copy.jpg" alt="image" class="image">
+    <div class="text-2">
+        <h1>STEP3: Home visit</h1>
+      <p>We will visit the home and look at the entire house, including the living room, dining room, private room, bath room and landry.</p>
+    </div>
+  </div>
+
+  <div class="container-4">
+    <h1>Become Host family! Apply from here</h1>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdx2h769THWlKSXsEx42eiVUhmHw9sFxZiHi03x4B0g7JwFyA/viewform?usp=sf_link" class="button">Go to Application form</a>
+  </div>
+
+  <div class="container-5">
+    <h1>If you have any questions, click below</h1>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSefGC9YaAUlS6BP8kYRcKMCyP2UEFyzCTVkjsntzbl0jOOg3g/viewform?usp=sf_link" class="button">Go to contact form</a>
+  </div>
+
+
